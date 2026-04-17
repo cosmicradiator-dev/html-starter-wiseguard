@@ -1,96 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>WiseGuard Customer Support</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --li-blue: #0a66c2;
+    --li-blue-hover: #004182;
+    --li-bg: #f3f2ef;
+    --li-white: #ffffff;
+    --li-border: #e0ddd8;
+    --li-text: #191919;
+    --li-muted: #666666;
+    --li-light: #f9f7f4;
+    --li-green: #057642;
+    --li-card-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.06);
+    --radius: 8px;
+  }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--li-bg);
+    color: var(--li-text);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* NAVBAR */
+  nav {
+    background: var(--li-white);
+    border-bottom: 1px solid var(--li-border);
+    position: sticky; top: 0; z-index: 100;
+    padding: 0 24px;
+    display: flex; align-items: center; gap: 16px;
+    height: 52px;
+  }
+  .nav-logo {
+    font-family: 'Source Serif 4', serif;
+    font-size: 22px; font-weight: 700;
+    color: var(--li-blue);
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+  }
+  .nav-logo span { color: var(--li-text); font-weight: 400; font-size: 13px; margin-left: 6px; }
+  .nav-search {
+    flex: 1; max-width: 340px;
+    display: flex; align-items: center;
+    background: #eef3f8;
+    border: 1px solid #c4c9d4;
+    border-radius: 4px;
+    padding: 6px 12px; gap: 8px;
+  }
+  .nav-search input {
+    border: none; background: transparent;
+    font-size: 14px; color: var(--li-text); outline: none; width: 100%;
+  }
+  .nav-search svg { color: #666; flex-shrink: 0; }
+  .nav-links { display: flex; align-items: center; gap: 4px; margin-left: auto; }
+  .nav-link {
+    display: flex; flex-direction: column; align-items: center;
+    padding: 6px 10px; border-radius: 4px; cursor: pointer;
+    font-size: 11px; color: var(--li-muted); gap: 2px;
+    text-decoration: none; transition: color 0.15s;
+    border: none; background: none;
+  }
+  .nav-link:hover { color: var(--li-text); }
+  .nav-link.active { color: var(--li-text); border-bottom: 2px solid var(--li-text); }
+  .nav-link svg { width: 20px; height: 20px; }
+  .nav-btn {
+    padding: 6px 16px; border-radius: 20px;
+    border: 1.5px solid var(--li-blue); color: var(--li-blue);
+    background: transparent; cursor: pointer;
+    font-size: 13px; font-weight: 600;
+    transition: all 0.15s; font-family: 'DM Sans', sans-serif;
+  }
+  .nav-btn:hover { background: #eef3f8; }
+  .nav-btn.primary { background: var(--li-blue); color: white; border-color: var(--li-blue); }
+  .nav-btn.primary:hover { background: var(--li-blue-hover); }
+
+  /* LAYOUT */
+  .container { max-width: 1128px; margin: 24px auto; padding: 0 16px; display: grid; grid-template-columns: 280px 1fr 300px; gap: 16px; }
+  @media (max-width: 960px) { .container { grid-template-columns: 1fr; } .sidebar-right { display: none; } }
+
+  /* CARDS */
+  .card {
+    background: var(--li-white);
+    border: 1px solid var(--li-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--li-card-shadow);
+  }
+  .card-body { padding: 16px; }
+
+  /* PROFILE CARD */
+  .profile-banner {
+    height: 72px;
+    background: linear-gradient(135deg, #0a66c2 0%, #0047a3 40%, #185adb 100%);
+    position: relative;
+  }
+  .profile-avatar {
+    width: 72px; height: 72px; border-radius: 50%;
+    border: 3px solid white;
+    background: linear-gradient(135deg, #0a66c2, #004182);
+    display: flex; align-items: center; justify-content: center;
+    position: absolute; bottom: -36px; left: 16px;
+    font-size: 24px; font-weight: 700; color: white;
+    font-family: 'Source Serif 4', serif;
+  }
+  .profile-info { padding: 44px 16px 12px; }
+  .profile-name { font-size: 16px; font-weight: 600; line-height: 1.3; }
+  .profile-title { font-size: 13px; color: var(--li-muted); margin-top: 2px; }
+  .profile-stats { border-top: 1px solid var(--li-border); padding: 10px 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .stat-item { font-size: 12px; color: var(--li-muted); }
+  .stat-item strong { display: block; color: var(--li-blue); font-size: 13px; font-weight: 600; }
+  .profile-actions { padding: 10px 16px 16px; display: flex; flex-direction: column; gap: 8px; }
+  .btn-full { width: 100%; padding: 8px; border-radius: 20px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.15s; }
+  .btn-blue { background: var(--li-blue); color: white; border: none; }
+  .btn-blue:hover { background: var(--li-blue-hover); }
+  .btn-outline { background: transparent; color: var(--li-blue); border: 1.5px solid var(--li-blue); }
+  .btn-outline:hover { background: #eef3f8; }
+
+  /* FEED POST */
+  .post-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; }
+  .post-avatar { width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #0a66c2, #004182); display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 700; color: white; flex-shrink: 0; font-family: 'Source Serif 4', serif; }
+  .post-avatar.green { background: linear-gradient(135deg, #057642, #044e2a); }
+  .post-avatar.amber { background: linear-gradient(135deg, #b45309, #7c3d0c); }
+  .post-meta strong { font-size: 14px; font-weight: 600; display: block; }
+  .post-meta span { font-size: 12px; color: var(--li-muted); }
+  .post-text { font-size: 14px; line-height: 1.6; margin-bottom: 12px; color: var(--li-text); }
+  .post-tag { display: inline-block; background: #eef3f8; color: var(--li-blue); padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: 500; margin-right: 4px; }
+  .post-image { width: 100%; height: 180px; background: linear-gradient(135deg, #eef3f8 0%, #dde8f5 100%); border-radius: 4px; display: flex; align-items: center; justify-content: center; margin-bottom: 12px; overflow: hidden; position: relative; }
+  .post-image-icon { font-size: 48px; opacity: 0.25; }
+  .post-image-text { position: absolute; bottom: 12px; left: 12px; font-size: 13px; font-weight: 600; color: var(--li-blue); }
+  .post-stats { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--li-muted); padding: 4px 0 8px; border-bottom: 1px solid var(--li-border); }
+  .reaction-emoji { font-size: 14px; }
+  .post-actions { display: flex; padding: 4px 0 0; }
+  .post-action { flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 4px; border-radius: 4px; cursor: pointer; color: var(--li-muted); font-size: 13px; font-weight: 500; transition: background 0.15s, color 0.15s; border: none; background: none; font-family: 'DM Sans', sans-serif; }
+  .post-action:hover { background: var(--li-light); color: var(--li-text); }
+  .post-action svg { width: 18px; height: 18px; }
+
+  /* TICKET CARD */
+  .ticket { display: flex; gap: 12px; padding: 14px 16px; border-bottom: 1px solid var(--li-border); cursor: pointer; transition: background 0.1s; }
+  .ticket:last-child { border-bottom: none; }
+  .ticket:hover { background: var(--li-light); }
+  .ticket-icon { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .ticket-icon.open { background: #eef3f8; color: var(--li-blue); }
+  .ticket-icon.resolved { background: #e7f4ef; color: var(--li-green); }
+  .ticket-icon.pending { background: #fef9ec; color: #b45309; }
+  .ticket-title { font-size: 14px; font-weight: 500; }
+  .ticket-sub { font-size: 12px; color: var(--li-muted); margin-top: 2px; }
+  .ticket-badge { padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; margin-left: auto; align-self: flex-start; margin-top: 2px; white-space: nowrap; }
+  .badge-open { background: #eef3f8; color: var(--li-blue); }
+  .badge-resolved { background: #e7f4ef; color: var(--li-green); }
+  .badge-pending { background: #fef9ec; color: #b45309; }
+
+  /* SECTION HEADER */
+  .section-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 16px 8px; }
+  .section-title { font-size: 15px; font-weight: 600; }
+  .section-link { font-size: 13px; color: var(--li-blue); cursor: pointer; text-decoration: none; font-weight: 500; }
+  .section-link:hover { text-decoration: underline; }
+
+  /* SKILL CHIPS */
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 16px 14px; }
+  .chip { padding: 4px 10px; border: 1px solid var(--li-border); border-radius: 12px; font-size: 12px; color: var(--li-muted); cursor: pointer; transition: all 0.15s; }
+  .chip:hover { border-color: var(--li-blue); color: var(--li-blue); background: #eef3f8; }
+  .chip.active { border-color: var(--li-blue); color: var(--li-blue); background: #eef3f8; font-weight: 500; }
+
+  /* COMPOSE BOX */
+  .compose { display: flex; align-items: center; gap: 10px; padding: 14px 16px; border-bottom: 1px solid var(--li-border); }
+  .compose-avatar { width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--li-border); background: linear-gradient(135deg, #0a66c2, #004182); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: white; flex-shrink: 0; }
+  .compose-input { flex: 1; padding: 9px 14px; border: 1px solid var(--li-border); border-radius: 20px; font-size: 14px; color: var(--li-muted); cursor: pointer; transition: border-color 0.15s; background: var(--li-white); font-family: 'DM Sans', sans-serif; }
+  .compose-input:hover { border-color: #999; }
+  .compose-actions { display: flex; gap: 2px; padding: 6px 16px 12px; }
+  .compose-btn { display: flex; align-items: center; gap: 5px; padding: 6px 10px; border-radius: 4px; font-size: 13px; font-weight: 500; color: var(--li-muted); cursor: pointer; border: none; background: none; font-family: 'DM Sans', sans-serif; transition: background 0.15s, color 0.15s; }
+  .compose-btn:hover { background: var(--li-light); color: var(--li-text); }
+
+  /* RIGHT SIDEBAR */
+  .trending-item { display: flex; gap: 10px; padding: 10px 16px; cursor: pointer; transition: background 0.1s; }
+  .trending-item:hover { background: var(--li-light); }
+  .trending-num { font-size: 12px; color: var(--li-muted); min-width: 16px; }
+  .trending-text { font-size: 13px; font-weight: 500; line-height: 1.4; }
+  .trending-count { font-size: 11px; color: var(--li-muted); margin-top: 2px; }
+
+  /* PREMIUM BANNER */
+  .premium-banner { background: linear-gradient(135deg, #f8f0df 0%, #fdf6e8 100%); border: 1px solid #e8d5a3; border-radius: var(--radius); padding: 16px; margin-bottom: 16px; }
+  .premium-icon { font-size: 20px; margin-bottom: 6px; }
+  .premium-title { font-size: 14px; font-weight: 600; color: #7a5e00; margin-bottom: 4px; }
+  .premium-text { font-size: 12px; color: #9a7a20; line-height: 1.5; margin-bottom: 10px; }
+  .premium-btn { width: 100%; padding: 8px; background: #b08400; color: white; border: none; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: background 0.15s; }
+  .premium-btn:hover { background: #8a6600; }
+
+  /* FOOTER LINKS */
+  .footer-links { padding: 10px 16px 14px; display: flex; flex-wrap: wrap; gap: 4px 8px; }
+  .footer-link { font-size: 11px; color: var(--li-muted); cursor: pointer; text-decoration: none; }
+  .footer-link:hover { text-decoration: underline; color: var(--li-blue); }
+
+  .divider { height: 1px; background: var(--li-border); margin: 4px 0; }
+  .mt8 { margin-top: 8px; }
+  .mb8 { margin-bottom: 8px; }
+  .text-blue { color: var(--li-blue); font-weight: 500; cursor: pointer; }
+  .text-blue:hover { text-decoration: underline; }
+
+  .verified-badge { display: inline-flex; align-items: center; gap: 3px; background: #eef3f8; color: var(--li-blue); font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 10px; margin-left: 6px; }
+
+  .notification-dot { width: 8px; height: 8px; background: #cc0000; border-radius: 50%; position: absolute; top: 0; right: 0; }
+
+  .icon-wrap { position: relative; display: inline-flex; }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-logo">WiseGuard<span>Customer Support</span></div>
+  <div class="nav-search">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" placeholder="Search support topics, tickets, articles..." />
+  </div>
+  <div class="nav-links">
+    <a class="nav-link active" href="#">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Home
+    </a>
+    <a class="nav-link" href="#">
+      <span class="icon-wrap">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span class="notification-dot"></span>
+      </span>
+      Tickets
+    </a>
+    <a class="nav-link" href="#">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      Network
+    </a>
+    <a class="nav-link" href="#">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      Activity
+    </a>
+    <a class="nav-link" href="#">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      Profile
+    </a>
+    <button class="nav-btn primary" style="margin-left:8px;">+ New Ticket</button>
+  </div>
+</nav>
+
+<!-- MAIN LAYOUT -->
+<div class="container">
+
+  <!-- LEFT SIDEBAR -->
+  <aside>
+    <!-- Profile Card -->
+    <div class="card" style="margin-bottom:12px;">
+      <div class="profile-banner"></div>
+      <div class="profile-avatar">WG</div>
+      <div class="profile-info">
+        <div class="profile-name">WiseGuard Support<span class="verified-badge">✓ Verified</span></div>
+        <div class="profile-title">Enterprise Customer Support Platform</div>
+        <div style="font-size:12px; color:var(--li-muted); margin-top:6px;">Helping businesses resolve issues faster with intelligent, human-first support.</div>
+      </div>
+      <div class="profile-stats">
+        <div class="stat-item"><strong>4,218</strong>Tickets Resolved</div>
+        <div class="stat-item"><strong>98.2%</strong>Satisfaction Rate</div>
+        <div class="stat-item"><strong>1.4h</strong>Avg. Response</div>
+        <div class="stat-item"><strong>12,500+</strong>Active Users</div>
+      </div>
+      <div class="profile-actions">
+        <button class="btn-full btn-blue">Open a Support Ticket</button>
+        <button class="btn-full btn-outline">View Knowledge Base</button>
+      </div>
+    </div>
+
+    <!-- Quick Categories -->
+    <div class="card" style="margin-bottom:12px;">
+      <div class="section-header">
+        <span class="section-title">Browse Topics</span>
+      </div>
+      <div class="chips">
+        <span class="chip active">All</span>
+        <span class="chip">Billing</span>
+        <span class="chip">Technical</span>
+        <span class="chip">Account</span>
+        <span class="chip">Onboarding</span>
+        <span class="chip">Security</span>
+        <span class="chip">API & Integrations</span>
+        <span class="chip">Reports</span>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="card">
+      <div class="footer-links">
+        <a class="footer-link" href="#">About</a>
+        <a class="footer-link" href="#">Privacy Policy</a>
+        <a class="footer-link" href="#">Terms of Service</a>
+        <a class="footer-link" href="#">Help Center</a>
+        <a class="footer-link" href="#">Contact Us</a>
+        <a class="footer-link" href="#">Accessibility</a>
+      </div>
+      <div style="padding: 0 16px 12px; font-size:11px; color: var(--li-muted);">WiseGuard Support &copy; 2025</div>
+    </div>
+  </aside>
+
+  <!-- MAIN FEED -->
+  <main>
+    <!-- Compose Ticket Box -->
+    <div class="card" style="margin-bottom:12px;">
+      <div class="compose">
+        <div class="compose-avatar">Y</div>
+        <input class="compose-input" type="text" placeholder="Describe your issue or ask a question..." readonly />
+      </div>
+      <div class="compose-actions">
+        <button class="compose-btn">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          New Ticket
+        </button>
+        <button class="compose-btn">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Attach File
+        </button>
+        <button class="compose-btn">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          Schedule Call
+        </button>
+      </div>
+    </div>
+
+    <!-- Post 1: Announcement -->
+    <div class="card" style="margin-bottom:12px; padding: 16px;">
+      <div class="post-header">
+        <div class="post-avatar">WG</div>
+        <div class="post-meta">
+          <strong>WiseGuard Support <span class="verified-badge">✓</span></strong>
+          <span>Official Announcement &nbsp;•&nbsp; 2 hours ago</span>
+        </div>
+      </div>
+      <div class="post-image">
+        <div class="post-image-icon">🛡️</div>
+        <div class="post-image-text">Platform Maintenance — April 20, 2025 &nbsp; 2:00 AM – 4:00 AM UTC</div>
+      </div>
+      <div class="post-text">
+        We will be performing scheduled maintenance on <strong>April 20, 2025</strong> from <strong>2:00 AM to 4:00 AM UTC</strong>. During this window, some support features may be temporarily unavailable. Our team is upgrading the ticketing infrastructure to bring you faster response times.
+        <br/><br/>
+        <span class="text-blue">#maintenance</span> &nbsp;<span class="text-blue">#update</span>
+      </div>
+      <div class="post-stats">
+        <span class="reaction-emoji">👍</span><span class="reaction-emoji">❤️</span>&nbsp;
+        <span>342 reactions</span>&nbsp;•&nbsp;<span>58 comments</span>
+      </div>
+      <div class="post-actions">
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+          Helpful
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Comment
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+          Repost
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+          Share
+        </button>
+      </div>
+    </div>
+
+    <!-- Post 2: Tips -->
+    <div class="card" style="margin-bottom:12px; padding: 16px;">
+      <div class="post-header">
+        <div class="post-avatar green">AS</div>
+        <div class="post-meta">
+          <strong>Aisha Shankar &nbsp;•&nbsp; Senior Support Engineer</strong>
+          <span>WiseGuard Support Team &nbsp;•&nbsp; 5 hours ago</span>
+        </div>
+      </div>
+      <div class="post-text">
+        💡 <strong>Pro Tip:</strong> Did you know you can speed up your ticket resolution by <strong>attaching screenshots or screen recordings</strong> when submitting a support request?<br/><br/>
+        Our engineers resolve image-supported tickets <strong>2.3× faster</strong> on average. Use the paperclip icon when creating a new ticket — drag &amp; drop is supported too!<br/><br/>
+        <span class="post-tag">#SupportTips</span>
+        <span class="post-tag">#WiseGuardUsers</span>
+        <span class="post-tag">#Productivity</span>
+      </div>
+      <div class="post-stats">
+        <span class="reaction-emoji">💡</span><span class="reaction-emoji">👍</span>&nbsp;
+        <span>189 reactions</span>&nbsp;•&nbsp;<span>34 comments</span>
+      </div>
+      <div class="post-actions">
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>
+          Helpful
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Comment
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+          Repost
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+          Share
+        </button>
+      </div>
+    </div>
+
+    <!-- Post 3: My Tickets -->
+    <div class="card" style="margin-bottom:12px;">
+      <div class="section-header">
+        <span class="section-title">My Recent Tickets</span>
+        <a class="section-link" href="#">View all →</a>
+      </div>
+      <div class="ticket">
+        <div class="ticket-icon open">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div style="flex:1">
+          <div class="ticket-title">Unable to export reports in PDF format</div>
+          <div class="ticket-sub">Ticket #WG-10482 &nbsp;•&nbsp; Opened 1 day ago &nbsp;•&nbsp; Billing & Reports</div>
+        </div>
+        <span class="ticket-badge badge-open">In Progress</span>
+      </div>
+      <div class="ticket">
+        <div class="ticket-icon resolved">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <div style="flex:1">
+          <div class="ticket-title">SSO login not working with Okta</div>
+          <div class="ticket-sub">Ticket #WG-10271 &nbsp;•&nbsp; Resolved 3 days ago &nbsp;•&nbsp; Security</div>
+        </div>
+        <span class="ticket-badge badge-resolved">Resolved ✓</span>
+      </div>
+      <div class="ticket">
+        <div class="ticket-icon pending">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <div style="flex:1">
+          <div class="ticket-title">Invoice discrepancy on March billing cycle</div>
+          <div class="ticket-sub">Ticket #WG-10190 &nbsp;•&nbsp; Awaiting info &nbsp;•&nbsp; Billing</div>
+        </div>
+        <span class="ticket-badge badge-pending">Pending</span>
+      </div>
+    </div>
+
+    <!-- Post 4: Knowledge Base highlight -->
+    <div class="card" style="padding:16px;">
+      <div class="post-header">
+        <div class="post-avatar amber">KB</div>
+        <div class="post-meta">
+          <strong>Knowledge Base &nbsp;•&nbsp; Featured Article</strong>
+          <span>Updated 6 hours ago</span>
+        </div>
+      </div>
+      <div class="post-text">
+        📘 <strong>Getting Started with WiseGuard API Integrations</strong><br/><br/>
+        Learn how to connect WiseGuard to your existing tools — Slack, Jira, Salesforce, and 40+ other platforms. Step-by-step guide, code samples, and video walkthrough included.<br/><br/>
+        <span class="text-blue">Read the full guide →</span>
+      </div>
+      <div class="post-stats">
+        <span class="reaction-emoji">📘</span><span class="reaction-emoji">🔖</span>&nbsp;
+        <span>1,204 views</span>&nbsp;•&nbsp;<span>saved by 312 users</span>
+      </div>
+      <div class="post-actions">
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          Save
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Comment
+        </button>
+        <button class="post-action">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+          Share
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- RIGHT SIDEBAR -->
+  <aside class="sidebar-right">
+    <!-- Premium Banner -->
+    <div class="premium-banner">
+      <div class="premium-icon">⭐</div>
+      <div class="premium-title">WiseGuard Priority Support</div>
+      <div class="premium-text">Get dedicated agents, 30-minute SLA, and direct phone support. Trusted by 500+ enterprise teams.</div>
+      <button class="premium-btn">Upgrade to Priority</button>
+    </div>
+
+    <!-- Trending Topics -->
+    <div class="card" style="margin-bottom:12px;">
+      <div class="section-header">
+        <span class="section-title">Trending in Support</span>
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">1</span>
+        <div>
+          <div class="trending-text">#API Rate Limits</div>
+          <div class="trending-count">843 discussions</div>
+        </div>
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">2</span>
+        <div>
+          <div class="trending-text">#Billing FAQ 2025</div>
+          <div class="trending-count">601 discussions</div>
+        </div>
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">3</span>
+        <div>
+          <div class="trending-text">#SSO &amp; SAML Setup</div>
+          <div class="trending-count">492 discussions</div>
+        </div>
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">4</span>
+        <div>
+          <div class="trending-text">#Export &amp; Reports</div>
+          <div class="trending-count">389 discussions</div>
+        </div>
+      </div>
+      <div class="trending-item" style="border-bottom:none;">
+        <span class="trending-num">5</span>
+        <div>
+          <div class="trending-text">#Mobile App Issues</div>
+          <div class="trending-count">274 discussions</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- People to Follow -->
+    <div class="card">
+      <div class="section-header">
+        <span class="section-title">Support Specialists</span>
+        <a class="section-link" href="#">See all</a>
+      </div>
+      <div style="padding: 4px 16px 16px; display:flex; flex-direction:column; gap:14px;">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#057642,#044e2a);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:14px;flex-shrink:0;">AS</div>
+          <div style="flex:1">
+            <div style="font-size:13px;font-weight:500;">Aisha Shankar</div>
+            <div style="font-size:11px;color:var(--li-muted);">Senior Support Engineer</div>
+          </div>
+          <button style="padding:4px 12px;border-radius:14px;border:1.5px solid var(--li-blue);color:var(--li-blue);background:transparent;font-size:12px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;">+ Follow</button>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#b45309,#7c3d0c);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:14px;flex-shrink:0;">MK</div>
+          <div style="flex:1">
+            <div style="font-size:13px;font-weight:500;">Marcus Kim</div>
+            <div style="font-size:11px;color:var(--li-muted);">Billing Specialist</div>
+          </div>
+          <button style="padding:4px 12px;border-radius:14px;border:1.5px solid var(--li-blue);color:var(--li-blue);background:transparent;font-size:12px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;">+ Follow</button>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#0a66c2,#004182);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:14px;flex-shrink:0;">RP</div>
+          <div style="flex:1">
+            <div style="font-size:13px;font-weight:500;">Riya Patel</div>
+            <div style="font-size:11px;color:var(--li-muted);">API Integration Lead</div>
+          </div>
+          <button style="padding:4px 12px;border-radius:14px;border:1.5px solid var(--li-blue);color:var(--li-blue);background:transparent;font-size:12px;font-weight:600;cursor:pointer;font-family:'DM Sans',sans-serif;">+ Follow</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+</body>
 </html>
